@@ -1,0 +1,5 @@
+# Configuración para ejecutar en local (Windows).
+# Rutas relativas a la raíz del repositorio.
+
+data_dir: datasets
+results_dir: results

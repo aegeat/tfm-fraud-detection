@@ -29,6 +29,11 @@ cosas nuevas. Claude NO entrega código terminado: hace de profesor.
 - Sin excepciones: también los archivos auxiliares (requisitos, `.gitignore`,
   configuración, lanzador de Kaggle) se hacen juntos.
 - Tras cada entrega del autor, Claude revisa el código y da feedback.
+- Ritmo: no preguntar por detalles de librerías que el autor no conoce
+  (p. ej. yaml, Optuna, CodeCarbon). Ese código lo da Claude, explicado en
+  pocas líneas. Los ejercicios se reservan para lo que merece la pena
+  aprender: Python, numpy/pandas/sklearn, PyTorch y la lógica del TFM.
+  Como mucho, una o dos preguntas por paso.
 - Nivel de partida: ha usado bastante numpy, pandas y scikit-learn, pero hace
   tiempo que no los usa, así que necesita calentamiento. Git: desde cero.
 - Estilo: nombres de variables, funciones y módulos en inglés; comentarios y
