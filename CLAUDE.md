@@ -43,7 +43,10 @@ cosas nuevas. Claude NO entrega código terminado: hace de profesor.
 - BAF Base (Kaggle: sgpjesus/bank-account-fraud-dataset-neurips-2022). El
   dataset NO se sube al repositorio (licencia): solo el código que lo procesa.
 - Objetivo: `fraud_bool`. Temporal: `month` (0–7).
-- Atributo protegido: `customer_age`, en dos grupos (>50 y ≤50).
+- Atributo protegido: `customer_age`, en dos grupos: `customer_age >= 50`
+  (50 años o más) y `< 50`. Es el corte del código oficial de los autores; el
+  texto del paper dice ">50", pero los tramos van por décadas (50 = 50-59).
+  Ver `docs/datos.md`.
 - Varias variables codifican los ausentes con valores negativos: verificarlo
   con la documentación del dataset antes de tratarlos.
 
