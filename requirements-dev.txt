@@ -1,4 +1,4 @@
 # Dependencias solo para desarrollo en local (no se instalan en Kaggle)
 -r requirements.txt
 
-ipykernel==7.0.4
+ipykernel==7.4.0
