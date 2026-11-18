@@ -104,9 +104,8 @@ Las variables marcadas con (*) tienen como único valor negativo el -1.
 - La magnitud aporta mucho menos: entre el primer y el último quintil de los
   negativos, la tasa pasa del 1,02 % al 1,33 % en train (ratio 1,31) y del 1,18 %
   al 1,75 % en val (ratio 1,47). En los meses 1 y 2 de train es casi plana.
-- **Recomendación, pendiente de aprobar:** convertir los negativos a NaN, como
-  el resto de ausentes, y conservar la señal principal con el indicador de
-  ausencia.
+- **Decisión:** convertir los negativos a NaN, como el resto de ausentes, y
+  conservar la señal principal con el indicador de ausencia.
 
 ### Negativos legítimos (se dejan tal cual)
 
